@@ -130,6 +130,27 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
+/* personalisado */
+.contato {
+    background: url(/img/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background: #009a65; */
+}
+
+.contato h2 {
+    font-size: 48px;
+}
+
+.sobre {
+    background: url(/img/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background: #d92636; */
+}
+
 
 .intro {
     display: table;
@@ -250,6 +271,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .download-section {
@@ -272,7 +294,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .download-section {
