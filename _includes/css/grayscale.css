@@ -135,7 +135,7 @@ a:focus {
     background: url(/img/contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scrollc;
     /* background: #009a65; */
 }
 
