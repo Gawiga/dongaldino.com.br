@@ -19,9 +19,9 @@ social:
   - title: instagram
     url: https://www.instagram.com/dongaldino/
   - title: facebook
-    url: http://www.facebook.com/dongaldinobistro
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://www.facebook.com/dongaldinobistro
+  - title: tripadvisor
+    url: https://www.tripadvisor.com.br/Restaurant_Review-g303616-d13379004-Reviews-Don_Galdino-Jundiai_State_of_Sao_Paulo.html
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
   # - title: github
