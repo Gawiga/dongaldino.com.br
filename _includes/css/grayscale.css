@@ -130,12 +130,12 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
-/* personalisado */
+/* personalizado */
 .contato {
     background: url(/img/contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: scrollc;
+    background-attachment: fixed;
     /* background: #009a65; */
 }
 
@@ -151,6 +151,13 @@ a:focus {
     /* background: #d92636; */
 }
 
+.jumbo {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: .3rem;
+
+}
 
 .intro {
     display: table;
@@ -274,11 +281,11 @@ a:focus {
     padding-bottom: 100px;
 }
 
-.download-section {
+.social-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(/img/social.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
