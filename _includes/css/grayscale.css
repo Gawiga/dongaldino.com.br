@@ -30,6 +30,11 @@ h6 {
     letter-spacing: 1px;
 }
 
+h2,
+h3 {
+    
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -139,6 +144,14 @@ a:focus {
     /* background: #009a65; */
 }
 
+.verde {
+    color: #009a65;
+}
+
+.vermelho {
+    color: #d92636;
+}
+
 .contato h2 {
     font-size: 48px;
 }
@@ -166,12 +179,11 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-color: {{ site.color.primary-dark }};
 }
 
 .intro .intro-body {
@@ -186,6 +198,78 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
+
+.low {
+    vertical-align: bottom;
+}
+
+.down {
+    position: absolute;
+    bottom: 50px;
+    display: block;
+    text-align: center; 
+    width: 100%;
+}
+
+.down .icon {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+    -webkit-animation:  pulse 1.3s infinite;
+    animation: pulse 1.3s infinite; 
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px
+    }
+    to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+}
+
+@keyframes pulse {
+    from {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px
+    }
+    to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+} 
+
 
 @media(min-width:767px) {
     .intro {
@@ -365,7 +449,7 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 15px 0;
 }
 
 footer p {
@@ -392,6 +476,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
+/* body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
+} */
