@@ -172,6 +172,14 @@ a:focus {
 
 }
 
+.ifood {
+    vertical-align: bottom;
+    top: 100px;
+    position: relative; 
+    width: 100%;
+    text-align: center;
+}
+
 .intro {
     display: table;
     width: 100%;
