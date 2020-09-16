@@ -172,12 +172,19 @@ a:focus {
 
 }
 
-.ifood {
-    vertical-align: bottom;
+.ifood-logo {
+    margin-top: 20px;
+    margin-left: -20px;
+    /* vertical-align: bottom;
     top: 100px;
     position: relative; 
     width: 100%;
-    text-align: center;
+    text-align: center; */
+}
+
+.whatsapp-logo {
+    margin-top: 20px;
+
 }
 
 .intro {
